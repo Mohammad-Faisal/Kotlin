@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+
+        android:id="@+id/root"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <Button
+                    android:text="create toast"
+                    android:id="@+id/btn_toast"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="create log"
+                    android:id="@+id/btn_log"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="create snackbar"
+                    android:id="@+id/btn_snackbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <TextView
+                    android:text="normal text"
+                    android:id="@+id/txt_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="check internet"
+                    android:id="@+id/btn_chk_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
+                <Button
+                    android:text="go to image activity"
+                    android:id="@+id/btn_image_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
+                <Button
+                    android:text="go to spinner activity"
+                    android:id="@+id/btn_spinner_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="go to dialog activity"
+                    android:id="@+id/btn_dialog_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="go to recycler activity"
+                    android:id="@+id/btn_recycler_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:text="go to fragment activity"
+                    android:id="@+id/btn_fragment_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
+                <Button
+                    android:text="go to menu activity"
+                    android:id="@+id/btn_menu_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+
+    <array name="spinner_items">
+        <item>faisal</item>
+        <item>akhi</item>
+        <item>others</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
