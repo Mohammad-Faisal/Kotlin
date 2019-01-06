@@ -9,17 +9,22 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 
 import com.example.faisal.diceroller.R
-import kotlinx.android.synthetic.main.fragment_second.view.*
+import kotlinx.android.synthetic.main.fragment_third.view.*
 
-
-class SecondFragment : Fragment() {
+class ThirdFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val view : View = inflater.inflate(R.layout.fragment_second, container, false)
-        view.second_fragment_btn.setOnClickListener {
-            view.findNavController().navigate(R.id.action_secondFragment_to_thirdFragment)
+
+        val view : View = inflater.inflate(R.layout.fragment_third, container, false)
+
+
+        view.third_fragment_btn.setOnClickListener {
+            view.findNavController().navigate(R.id.action_thirdFragment_to_firstFragment)
         }
+
+
+
         return view
     }
 

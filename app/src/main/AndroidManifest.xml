@@ -25,7 +25,12 @@
         <activity android:name=".ImageActivity" />
         <activity android:name=".AlertDIalogActivity" />
         <activity android:name=".fragment.FragmentHolderActiviy" />
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".mvvm.QuotesActivity" />
+        <activity
+            android:name=".roomviewmodel.WordActivity"
+            android:label="@string/title_activity_word" />
+        <activity android:name=".roomviewmodel.NewWordActivity"></activity>
     </application>
 
 </manifest>

@@ -3,12 +3,14 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.faisal.diceroller.fragment.FragmentHolderActiviy
+import com.example.faisal.diceroller.mvvm.QuotesActivity
 import createLog
 import createSnackBar
 import createToast
 import isDataAvailable
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.faisal.diceroller.recycler.RecyclerActivity
+import com.example.faisal.diceroller.roomviewmodel.WordActivity
 
 
 class MainActivity : AppCompatActivity()  {
@@ -56,6 +58,17 @@ class MainActivity : AppCompatActivity()  {
             val intent  = Intent(this , MenuActivity::class.java)
             startActivity(intent)
         }
+
+        btn_mvvm_activity.setOnClickListener {
+            val intent  = Intent(this , QuotesActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_room_activity.setOnClickListener {
+            val intent  = Intent(this , WordActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 

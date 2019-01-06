@@ -22,7 +22,7 @@ class Adapter(val items : ArrayList<String>, val context: Context ,val activity 
     }
 
     // Gets the number of animals in the list
-    override fun getItemCount(): Int =items.size
+    override fun getItemCount() =items.size
 }
 
 class ViewHolder (view: View) : RecyclerView.ViewHolder(view) {

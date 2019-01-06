@@ -94,6 +94,20 @@
                     android:layout_height="60dp" />
 
 
+                <Button
+                    android:text="go to mvvm activity"
+                    android:id="@+id/btn_mvvm_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
+                <Button
+                    android:text="go to room activity"
+                    android:id="@+id/btn_room_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+
             </LinearLayout>
 
 

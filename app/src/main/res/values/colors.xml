@@ -9,4 +9,7 @@
     <color name="spinnerBackground">#F8FFFF</color>
     <color name="spinnerBorder">#3F51B5</color>
 
+    <color name="buttonLabel">#d3d3d3</color>
+
+
 </resources>
